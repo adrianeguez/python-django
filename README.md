@@ -21,3 +21,11 @@ En settings editar django cojer el virtual environment y crear la nueva configur
 ```bash
 django-admin startapp app_ejemplo
 ```
+
+
+```bash
+python manage.py createsuperuser
+python manage.py migrate
+python manage.py makemigrations 
+python manage.py migrate
+```
